@@ -415,10 +415,9 @@ ejecuta lo siguiente. Si estas en Windows puedes usar Git Bash:
 1. Clona el fork en tu PC
 2. Ubica la shell en el proyecto que clonaste
 3. Instala las dependencias del proyecto con `npm install`
-4. Instala `playwright` con `npx playwright install chromium --with-deps`
-5. Para arrancar el servidor web `npm start` y dirígete a
+4. Para arrancar el servidor web `npm start` y dirígete a
    `http://localhost:3000` en tu navegador.
-6. A codear se ha dicho! :rocket:
+5. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
 
