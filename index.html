@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <img
+          src="https://img.freepik.com/vector-premium/abc-patrones-fisuras-estilo-escandinavo-alfabeto-vector-dibujos-animados-dibujados-mano-repetir-fondo-pantalla_152104-994.jpg?w=2000"
+          class="illustration"
+          width="400"
+          height="200"
+          
+        />
+      <h1>Lenguaje del <span>amor</span> con Caesar Cipher</h1>
+<p>Cifrar significa ocultar el contenido de un mensaje a simple vista, de manera que solo las partes autorizadas y que tengan conocimiento de este pueden descifrar un texto cifrado. 
+  <br> El cifrado César es uno de los primeros métodos de cifrado conocidos. 
+  <br>El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
+  <br> Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones más adelante en el mismo.
+  <br>por ejemplo
+<br>
+<span class="abc">ABCDEFGHIJLKMNOPQRSTUVWXYZ</span>
+<br>
+<span class="abc">DEFGHIJKLMNOPQRSTUVWXYZABC</span>
+<br>En este caso seria en el lenguaje normal:
+<br><span class="ejemplo">HOLA MI AMOR</span> 
+
+<br>En el lenguaje Caesar Cipher
+<br><span class="ejemplo">KROD PL DPRU </span> </p>
+<div>
+  <br>Elija el numero de desplazamiento<br>
+  
+  <div id="offset-desplegable">
+    <label for="clave">Numero de desplazamientos:</label>
+    <select name="clave" id="clave">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+  </select>
+ <br>
+  
+
+  <strong>inserta texto </strong> 
+  <br>
+  <input type="text" name="cifrar" id="cifrar">  
+  <br>
+  <button id="cifrarval">cifrar</button>
+   </div>
+   <p id="resultadoCifrar">mensaje cifrado</p>
+ 
+   <br>
+   <strong>inserta texto </strong> 
+   <br>
+   <input type="text" name="descifrar" id="descifrar">
+   <br>
+  <button id="descifrarval">descifrar </button>
+  <br>
+  <p id="resultadoDescifrar">mensaje descifrado</p>
+  <br>
+
+<button id="borrardatos">borrar datos</button>
+<footer>
+  <br>
+  by:Yarenzy Valeria Gonzalez Tovar.
+</footer>
+
+    </div>
+    <script src="index.js" type="module"></script>
+    </div>
+  </body>
+</html>
